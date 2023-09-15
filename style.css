@@ -55,7 +55,7 @@ body{
     border: none;
     border-radius: 5px;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
     padding: 9px 18px;
     cursor: pointer;
@@ -67,3 +67,8 @@ body{
 }
 
 .dataTables_filter {margin-bottom: 10px;}
+
+tbody td {
+    text-align: center;
+    vertical-align: middle;
+  }
