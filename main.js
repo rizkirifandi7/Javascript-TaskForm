@@ -50,6 +50,20 @@ const table = $("#tabelPendaftar").DataTable({
 			},
 		},
 	],
+	pageLength: 5,
+	lengthMenu: [
+		[5, 10, 20, -1],
+		[5, 10, 15, "All"],
+	],
+	paging: true,
+	searching: true,
+	ordering: true,
+	stateSave: true,
+	language: {
+		search: "",
+		searchPlaceholder: "Search...",
+		lengthMenu: "Show _MENU_",
+	},
 });
 
 // Fungsi untuk menghapus pendaftar berdasarkan nama
