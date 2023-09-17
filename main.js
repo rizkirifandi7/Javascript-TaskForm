@@ -85,6 +85,8 @@ function editPendaftar(nama) {
 	}
 }
 
+
+
 // Objek untuk melacak status validasi input
 const validationStatus = {
 	nama: false,
